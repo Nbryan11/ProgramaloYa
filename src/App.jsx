@@ -287,7 +287,6 @@ const App = () => {
         </div>
       </div>
       <ServicesSection />
-
       <div className="py-20 bg-gray-50 text-gray-900" id="how-it-works">
   <div className="max-w-7xl mx-auto px-4">
     <h2 className="text-4xl font-semibold text-blue-600 mb-12 text-center">¿Cómo Contratar Nuestros Servicios?</h2>
