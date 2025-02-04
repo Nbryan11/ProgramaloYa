@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import MyImage from './images/img1.png';
+import AcademicoImage from './academico.png';
+import ComputadorImage from './computador.png';
+import AutomatizacionImage from './automatizacion.png';
 
 // Componente de animación de texto
 const AnimatedText = () => {
@@ -165,7 +168,7 @@ const ServicesSection = () => {
               Si necesitas ayuda con proyectos de programación, desarrollo de sistemas o diseño web para tus estudios, te brindamos asesoría y ejecución para llevar tus trabajos al nivel que tu universidad exige.
             </p>
             {/* Imagen centrada y más grande */}
-            <img src="academico.png" alt="Logo" className="mx-auto h-32 w-auto" />
+            <img src={AcademicoImage} alt="Proyectos Académicos" className="mx-auto h-32 w-auto" />
           </div>
           <div className="bg-gray-100 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow min-h-[350px]">
             <h3 className="text-2xl font-semibold text-blue-600 mb-4 text-left">Desarrollo de Sitios Web Profesionales</h3>
@@ -173,7 +176,7 @@ const ServicesSection = () => {
               Creamos sitios web responsivos, intuitivos y visualmente atractivos, diseñados para aumentar la presencia online de tu negocio y atraer a más clientes.
             </p>
             {/* Imagen centrada y más grande */}
-            <img src="computador.png" alt="Logo" className="mx-auto h-32 w-auto" />
+            <img src={ComputadorImage} alt="Sitios Web Profesionales" className="mx-auto h-32 w-auto" />
           </div>
           <div className="bg-gray-100 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow min-h-[350px]">
             <h3 className="text-2xl font-semibold text-blue-600 mb-4 text-left">Mantenimiento y Soporte Continuo</h3>
@@ -181,7 +184,7 @@ const ServicesSection = () => {
               Ofrecemos soporte y mantenimiento para que tu sitio web esté siempre actualizado, seguro y funcionando sin problemas.
             </p>
             {/* Imagen centrada y más grande */}
-            <img src="automatizacion.png" alt="Logo" className="mx-auto h-32 w-auto" />
+            <img src={AutomatizacionImage} alt="Mantenimiento y Soporte" className="mx-auto h-32 w-auto" />
           </div>
         </div>
       </div>
