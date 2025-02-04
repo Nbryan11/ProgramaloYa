@@ -40,7 +40,7 @@ const Navbar = () => {
           {/* Imagen */}
           <img src={Logo} alt="Logo" className="h-16 w-auto" />
           {/* Texto */}
-          <div className="text-xl font-bold text-blue-600">Programalo Ya</div>
+          <div className="text-xl font-bold text-blue-600">Programalo Yaa</div>
         </div>
         <ul className="flex space-x-6">
           <li><a href="#home" className="text-gray-800 hover:text-blue-600 transition-colors">Inicio</a></li>
@@ -154,13 +154,6 @@ const ServicesSection = () => {
   }, []);
 
   return (
-    <div
-      ref={ref}
-      className={`py-20 bg-white text-gray-900 transition-opacity duration-1000 ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-      }`}
-      id="services"
-    >
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-6xl font-semibold text-gray-600 mb-8">Nuestros Servicios</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -190,7 +183,6 @@ const ServicesSection = () => {
           </div>
         </div>
       </div>
-    </div>
   );
   
 };
