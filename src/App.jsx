@@ -3,6 +3,8 @@ import MyImage from './images/img1.png';
 import AcademicoImage from './academico.png';
 import ComputadorImage from './computador.png';
 import AutomatizacionImage from './automatizacion.png';
+import Logo from './logooo.webp';
+
 
 // Componente de animación de texto
 const AnimatedText = () => {
@@ -36,7 +38,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between text-gray-900">
         <div className="flex items-center space-x-2">
           {/* Imagen */}
-          <img src="logooo.webp" alt="Logo" className="h-16 w-auto" />
+          <img src={Logo} alt="Logo" className="h-16 w-auto" />
           {/* Texto */}
           <div className="text-xl font-bold text-blue-600">Programalo Ya</div>
         </div>
